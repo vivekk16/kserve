@@ -917,7 +917,7 @@ LLMINFERENCESERVICE_CONFIGS = {
             "containers": [
                 {
                     "name": "main",
-                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.8.2",
+                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.9.0",
                     "command": ["/app/llm-d-inference-sim"],
                     "args": [
                         "--port",
@@ -943,7 +943,7 @@ LLMINFERENCESERVICE_CONFIGS = {
             "containers": [
                 {
                     "name": "main",
-                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.8.2",
+                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.9.0",
                     "command": ["/app/llm-d-inference-sim"],
                     "args": [
                         "--port",
@@ -975,7 +975,7 @@ LLMINFERENCESERVICE_CONFIGS = {
             "containers": [
                 {
                     "name": "main",
-                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.8.2",
+                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.9.0",
                     "command": ["/app/llm-d-inference-sim"],
                     "args": [
                         "--port",
@@ -997,7 +997,7 @@ LLMINFERENCESERVICE_CONFIGS = {
             "containers": [
                 {
                     "name": "main",
-                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.8.2",
+                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.9.0",
                     "command": ["/app/llm-d-inference-sim"],
                     "args": [
                         "--port",
@@ -1023,7 +1023,7 @@ LLMINFERENCESERVICE_CONFIGS = {
             "containers": [
                 {
                     "name": "main",
-                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.8.2",
+                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.9.0",
                     "command": ["/app/llm-d-inference-sim"],
                     "args": [
                         "--port",
@@ -1046,7 +1046,7 @@ LLMINFERENCESERVICE_CONFIGS = {
                 "containers": [
                     {
                         "name": "main",
-                        "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.8.2",
+                        "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.9.0",
                         "command": ["/app/llm-d-inference-sim"],
                         "args": [
                             "--port",
@@ -1175,7 +1175,7 @@ LLMINFERENCESERVICE_CONFIGS = {
             "containers": [
                 {
                     "name": "main",
-                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.8.2",
+                    "image": "ghcr.io/llm-d/llm-d-inference-sim:v0.9.0",
                     "command": ["/app/llm-d-inference-sim"],
                     "args": [
                         "--port",

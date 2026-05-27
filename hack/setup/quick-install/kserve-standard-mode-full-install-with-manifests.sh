@@ -2234,7 +2234,7 @@ spec:
         value: INFO
       - name: HF_HUB_CACHE
         value: /models
-      image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+      image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
       imagePullPolicy: IfNotPresent
       lifecycle:
         preStop:
@@ -2312,7 +2312,7 @@ spec:
             fieldPath: metadata.namespace
       - name: SSL_CERT_DIR
         value: /var/run/kserve/tls:/var/run/secrets/kubernetes.io/serviceaccount:/etc/pki/tls/certs
-      image: ghcr.io/llm-d/llm-d-routing-sidecar:v0.7.1
+      image: ghcr.io/llm-d/llm-d-routing-sidecar:v0.8.0
       imagePullPolicy: IfNotPresent
       livenessProbe:
         failureThreshold: 3
@@ -2564,7 +2564,7 @@ spec:
         value: INFO
       - name: HF_HUB_CACHE
         value: /models
-      image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+      image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
       imagePullPolicy: IfNotPresent
       lifecycle:
         preStop:
@@ -2646,7 +2646,7 @@ spec:
             fieldPath: metadata.namespace
       - name: SSL_CERT_DIR
         value: /var/run/kserve/tls:/var/run/secrets/kubernetes.io/serviceaccount:/etc/pki/tls/certs
-      image: ghcr.io/llm-d/llm-d-routing-sidecar:v0.7.1
+      image: ghcr.io/llm-d/llm-d-routing-sidecar:v0.8.0
       imagePullPolicy: IfNotPresent
       livenessProbe:
         failureThreshold: 3
@@ -2894,7 +2894,7 @@ spec:
         value: /models
       - name: VLLM_RANDOMIZE_DP_DUMMY_INPUTS
         value: "1"
-      image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+      image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
       imagePullPolicy: IfNotPresent
       lifecycle:
         preStop:
@@ -3116,7 +3116,7 @@ spec:
           value: INFO
         - name: HF_HUB_CACHE
           value: /models
-        image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+        image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
         imagePullPolicy: IfNotPresent
         lifecycle:
           preStop:
@@ -3388,7 +3388,7 @@ spec:
           value: INFO
         - name: HF_HUB_CACHE
           value: /models
-        image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+        image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
         imagePullPolicy: IfNotPresent
         lifecycle:
           preStop:
@@ -3656,7 +3656,7 @@ spec:
           value: INFO
         - name: HF_HUB_CACHE
           value: /models
-        image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+        image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
         imagePullPolicy: IfNotPresent
         lifecycle:
           preStop:
@@ -3951,7 +3951,7 @@ spec:
           env:
           - name: SSL_CERT_DIR
             value: /var/run/kserve/tls:/var/run/secrets/kubernetes.io/serviceaccount:/etc/pki/tls/certs
-          image: ghcr.io/llm-d/llm-d-inference-scheduler:v0.7.1
+          image: ghcr.io/llm-d/llm-d-inference-scheduler:v0.8.0
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 3
@@ -4009,7 +4009,7 @@ spec:
         - env:
           - name: TOKENIZERS_DIR
             value: /mnt/models
-          image: ghcr.io/llm-d/llm-d-uds-tokenizer:v0.7.1
+          image: ghcr.io/llm-d/llm-d-uds-tokenizer:v0.8.1
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 3
@@ -4242,7 +4242,7 @@ spec:
         value: INFO
       - name: HF_HUB_CACHE
         value: /models
-      image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+      image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
       imagePullPolicy: IfNotPresent
       lifecycle:
         preStop:
@@ -4513,7 +4513,7 @@ spec:
         value: INFO
       - name: HF_HUB_CACHE
         value: /models
-      image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+      image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
       imagePullPolicy: IfNotPresent
       lifecycle:
         preStop:
@@ -4781,7 +4781,7 @@ spec:
         value: INFO
       - name: HF_HUB_CACHE
         value: /models
-      image: ghcr.io/llm-d/llm-d-cuda:v0.6.0
+      image: ghcr.io/llm-d/llm-d-cuda:v0.7.0
       imagePullPolicy: IfNotPresent
       lifecycle:
         preStop:
